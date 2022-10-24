@@ -2,7 +2,7 @@ function sumValues(num1, num2, add) {
 
     if (add) {
 
-        var result = 0;
+        let result = 0;
 
         result = num1 + num2;
 
@@ -13,4 +13,4 @@ function sumValues(num1, num2, add) {
     console.log('final result: ', result);
 }
 
-sunValues(10, 10, true);
+sumValues(10, 10, true);
